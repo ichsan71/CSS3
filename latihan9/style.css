@@ -1,0 +1,7 @@
+body{
+    text-align: center;
+    size: 500px;
+}
+img{
+    filter: grayscale(100%);
+}

@@ -9,6 +9,15 @@ h1{
     src: url('SecularOne-Regular.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('OpenSans-Bold-webfont.woff') format('woff'),
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 h2{
     font-size: 100px;
     text-align: center;

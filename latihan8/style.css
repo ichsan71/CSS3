@@ -1,0 +1,16 @@
+h1{
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive; ;
+}
+
+@font-face{
+    font-family: "secular one";
+    src: url('SecularOne-Regular.ttf') format('truetype');
+}
+
+h2{
+    font-size: 100px;
+    text-align: center;
+    font-family: "secular one";
+}

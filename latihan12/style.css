@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.kotak1{
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    transition: all 1s ease;
+    margin: 5px;
+}
+.kotak2{
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    transition: all 1s ease-in;
+    margin: 5px;
+}
+.kotak3{
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    transition: all 1s ease-out;
+    margin: 5px;
+}
+.kotak4{
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    transition: all 1s ease-in-out;
+    margin: 5px;
+}
+.kotak5{
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    transition: all 1s linear;
+    margin: 5px;
+}
+.kotak6{
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    transition: all 1s cubic-bezier(0.82,-0.43, 0.14, 1.33);
+    margin: 5px;
+}
+.container:hover .kotak1{
+    transform: rotate(360deg);
+    margin-left: 800px;
+    background-image: url(../gambar/geumesh.jpeg);
+    background-size: cover;
+}
+.container:hover .kotak2{
+    transform: rotate(360deg);
+    margin-left: 800px;
+    background-image: url(../gambar/she.jpg);
+    background-size: cover;
+}
+.container:hover .kotak3{
+    transform: rotate(360deg);
+    margin-left: 800px;
+    background-image: url(../gambar/nature.jpg);
+    background-size: cover;
+}
+.container:hover .kotak4{
+    transform: rotate(360deg);
+    margin-left: 800px;
+    background-image: url(../gambar/city.jpg);
+    background-size: cover;
+}
+.container:hover .kotak5{
+    transform: rotate(360deg);
+    margin-left: 800px;
+    background-image: url(../gambar/batik.jpg);
+    background-size: cover;
+}
+.container:hover .kotak6{
+    transform: rotate(360deg);
+    margin-left: 800px;
+    background-image: url(../gambar/batik2.jpg);
+    background-size: cover;
+}
+.container{
+    width: 900px;
+    margin: 10px auto;
+    border: 5px solid black;
+}

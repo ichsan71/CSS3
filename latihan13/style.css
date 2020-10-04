@@ -1,0 +1,27 @@
+.kotak{
+    width: 200px;
+    height: 200px;
+    background-color: salmon;
+    background-image: url(../gambar/geumesh.jpeg);
+    background-size: cover;
+    
+}
+.kotak:hover{
+    animation: animasikotak 2s ease infinite alternate forwards running;
+}
+
+@keyframes animasikotak{
+    0%{
+        width: 200px;
+    }
+    
+    50%{
+        width: 200pxpx;
+        height: 200px;
+    }
+    
+    100%{
+        width: 500px;
+        height: 500px;
+    }
+}

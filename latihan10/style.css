@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+
+.gambar1{
+    -webkit-filter: saturate(50%) sepia(50%);
+    filter: blur(2px) brightness(200%) contrast(50%) 
+            saturate(50%) sepia(50%);
+            
+    width: 500px;
+}
+
+.gambar2{
+    -webkit-filter: drop-shadow(5px 5px 5px black);
+    filter: opacity(0.5) hue-rotate(100deg) drop-shadow(5px 5px 5px black) blur(50px);
+    
+    
+}
+.gambar2:hover{
+    filter: blur(0) grayscale(0);
+    transition: 5s;
+}

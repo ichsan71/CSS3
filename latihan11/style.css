@@ -1,0 +1,25 @@
+.kotak{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 50px auto 0;
+    transition: 1s;
+    background-image: url(../gambar/geumesh.jpeg);
+    background-size: cover;
+}
+.kotak:hover{
+    transform: scale(2) rotate(-45deg) skew(10deg) translate(50px);
+}
+
+.kotak2{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 50px auto 0;
+    transition: 1s;
+    background-image: url(../gambar/she.jpg);
+    background-size: cover;
+}
+.kotak2:hover{
+    transform: translate(500px, 100px);
+}
